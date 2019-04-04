@@ -1,0 +1,42 @@
+/**
+* Page content
+*/
+.page-content {
+  padding: $spacing-unit 0;
+}
+
+.page-heading {
+  // font-weight: bold;
+  font-size: $base-font-size;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  // font-size: 14px;
+  font-size: $base-font-size;
+}
+
+/**
+* Posts
+*/
+.post-header {
+  margin-bottom: $spacing-unit * 2;
+}
+
+.post-title {
+  font-size: 36px;
+}

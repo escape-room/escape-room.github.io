@@ -1,0 +1,261 @@
+$base-font-family: --apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+// $small-font-size:  $base-font-size;
+$base-line-height: 1.5;
+$spacing-unit:     $base-font-size;
+$text-color:       black;
+$background-color: white;
+$link-color:      #2a7ae2;
+
+$grey-color:       #aaa;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$navbar-bg-color: white;
+$navbar-color: $link-color;
+$navbar-height: $spacing-unit * 3;
+
+$solarized-base01: black;
+$solarized-base1: #93a1a1;
+$solarized-base3: #fdf6e3;
+$solarized-orange: #cb4b16;
+$solarized-red: #dc322f;
+$solarized-blue: #268bd2;
+$solarized-cyan: #2aa198;
+$solarized-green: #859900;
+$solarized-yellow: #B58900;
+
+/**
+* Reset some basic elements
+*/
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+  font-family: $base-font-family;
+}
+
+html {
+  // background-color: $navbar-bg-color;
+}
+
+/**
+* Basic styling
+*/
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  min-height: 100vh;
+  height: 100%;
+  max-width: 100vw;
+}
+
+%block--reset {
+  padding: 0;
+  margin: 0;
+}
+
+%list--reset {
+  @extend %block--reset;
+  list-style: none;
+}
+
+%block--centered {
+  margin: 0 auto;
+}
+
+%container {
+  width: 90%;
+  max-width: 42em;
+}
+
+%container--centered {
+  @extend %container;
+  @extend %block--centered;
+}
+
+.navbar {
+  height: $navbar-height;
+  width: 100%;
+  background-color: $navbar-bg-color;
+  // position: fixed;
+  top: 0; left: 0;
+
+  display: flex;
+  flex-direction: column;
+  // border-bottom: 1px darken($navbar-bg-color, 10%) solid;
+  // box-shadow: 0 0 4px darken($navbar-bg-color, 7%);
+}
+
+.navbar__inner {
+  @extend %list--reset;
+  @extend %container--centered;
+
+  flex: 1;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.navbar__text {
+  color: $navbar-color;
+
+  &:visited {
+    color: $navbar-color;
+  }
+}
+
+.navbar__item {
+  margin-right: 2em;
+}
+
+main {
+  @extend %container--centered;
+  margin-top: $navbar-height;
+  padding-top: 3 * $spacing-unit;
+  padding-bottom: 3 * $spacing-unit;
+}
+
+/**
+* Set `margin-bottom` to maintain vertical rhythm
+*/
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure, table,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit;
+}
+
+p {
+  hyphens: auto;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+/**
+* Images
+*/
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/**
+* Figures
+*/
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+
+/**
+* Lists
+*/
+ul, ol {
+  margin-left: $spacing-unit;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+/**
+* Headings
+*/
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  font-weight: 500;
+  // font-weight: 300;
+  // letter-spacing: -0.01em;
+}
+
+/**
+* Links
+*/
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $link-color;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+
+/**
+* Blockquotes
+*/
+blockquote {
+  color: $grey-color;
+  border-left: 4px solid $grey-color-light;
+  padding-left: $spacing-unit / 2;
+  font-size: 18px;
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+/**
+* Code formatting
+*/
+pre,
+code {
+  font-size: 0.9em;
+  border: 1px solid darken($solarized-base3, 20%);
+  border-radius: 3px;
+  background-color: $solarized-base3;
+  color: $solarized-base01;
+  font-family: Consalas, Monaco, monospace;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/**
+* Clearfix
+*/
+%clearfix {
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 05 Apr 2019 02:16:09 -0400</pubDate>
+    <lastBuildDate>Fri, 05 Apr 2019 02:16:09 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Github Flavored Markdown Sampler!</title>
+        <description>&lt;h1 id=&quot;github-flavored-markdown&quot;&gt;GitHub Flavored Markdown&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;View the &lt;a href=&quot;http://github.github.com/github-flavored-markdown/sample_content.html&quot;&gt;source of this content&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s get the whole “linebreak” thing out of the way. The next paragraph contains two phrases separated by a single newline character:&lt;/p&gt;
+
+&lt;p&gt;Roses are red
+Violets are blue&lt;/p&gt;
+
+&lt;p&gt;The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:&lt;/p&gt;
+
+&lt;p&gt;Roses are red&lt;br /&gt;
+Violets are blue&lt;/p&gt;
+
+&lt;p&gt;Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.&lt;/p&gt;
+
+&lt;h2 id=&quot;math-is-hard-lets-go-shopping&quot;&gt;Math is hard, let’s go shopping&lt;/h2&gt;
+
+&lt;p&gt;In first grade I learned that 5 &amp;gt; 3 and 2 &amp;lt; 7. Maybe some arrows. 1 -&amp;gt; 2 -&amp;gt; 3. 9 &amp;lt;- 8 &amp;lt;- 7.&lt;/p&gt;
+
+&lt;p&gt;Triangles man! a^2 + b^2 = c^2&lt;/p&gt;
+
+&lt;h2 id=&quot;we-all-like-making-lists&quot;&gt;We all like making lists&lt;/h2&gt;
+
+&lt;p&gt;The above header should be an H2 tag. Now, for a list of fruits:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Red Apples&lt;/li&gt;
+  &lt;li&gt;Purple Grapes&lt;/li&gt;
+  &lt;li&gt;Green Kiwifruits&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let’s get crazy:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;This is a list item with two paragraphs. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+mi posuere lectus.&lt;/p&gt;
+
+    &lt;p&gt;Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+sit amet velit.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;What about some code &lt;strong&gt;in&lt;/strong&gt; a list? That’s insane, right?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;In Ruby you can map like this:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ['a', 'b'].map { |x| x.uppercase }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In Rails, you can do a shortcut:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ['a', 'b'].map(&amp;amp;:uppercase)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Some people seem to like definition lists&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Lower cost&lt;/dt&gt;
+  &lt;dd&gt;The new version of this product costs significantly less than the previous one!&lt;/dd&gt;
+  &lt;dt&gt;Easier to use&lt;/dt&gt;
+  &lt;dd&gt;We've changed the product so that it's much easier to use!&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h2 id=&quot;i-am-a-robot&quot;&gt;I am a robot&lt;/h2&gt;
+
+&lt;p&gt;Maybe you want to print &lt;code class=&quot;highlighter-rouge&quot;&gt;robot&lt;/code&gt; to the console 1000 times. Why not?&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def robot_invasion
+  puts(&quot;robot &quot; * 1000)
+end
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You see, that was formatted as code because it’s been indented by four spaces.&lt;/p&gt;
+
+&lt;p&gt;How about we throw some angle braces and ampersands in there?&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;footer&quot;&amp;gt;
+    &amp;amp;copy; 2004 Foo Corporation
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;set-in-stone&quot;&gt;Set in stone&lt;/h2&gt;
+
+&lt;p&gt;Preformatted blocks are useful for ASCII art:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;             ,-.
+    ,     ,-.   ,-.
+   / \   (   )-(   )
+   \ |  ,.&amp;gt;-(   )-&amp;lt;
+    \|,' (   )-(   )
+     Y ___`-'   `-'
+     |/__/   `-'
+     |
+     |
+     |    -hrr-
+  ___|_____________
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;playing-the-blame-game&quot;&gt;Playing the blame game&lt;/h2&gt;
+
+&lt;p&gt;If you need to blame someone, the best way to do so is by quoting them:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I, at any rate, am convinced that He does not throw dice.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Or perhaps someone a little less eloquent:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I wish you’d have given me this written question ahead of time so I
+could plan for it… I’m sure something will pop into my head here in
+the midst of this press conference, with all the pressure of trying to
+come up with answer, but it hadn’t yet…&lt;/p&gt;
+
+  &lt;p&gt;I don’t want to sound like
+I have made no mistakes. I’m confident I have. I just haven’t - you
+just put me under the spot here, and maybe I’m not as quick on my feet
+as I should be in coming up with one.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;table-for-two&quot;&gt;Table for two&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;ID&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Rank&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;1&lt;/td&gt;&lt;td&gt;Tom Preston-Werner&lt;/td&gt;&lt;td&gt;Awesome&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;2&lt;/td&gt;&lt;td&gt;Albert Einstein&lt;/td&gt;&lt;td&gt;Nearly as awesome&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;crazy-linking-action&quot;&gt;Crazy linking action&lt;/h2&gt;
+
+&lt;p&gt;I get 10 times more traffic from &lt;a href=&quot;http://google.com/&quot; title=&quot;Google&quot;&gt;Google&lt;/a&gt; than from
+&lt;a href=&quot;http://search.yahoo.com/&quot; title=&quot;Yahoo Search&quot;&gt;Yahoo&lt;/a&gt; or &lt;a href=&quot;http://search.msn.com/&quot; title=&quot;MSN Search&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 11 Sep 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/2017/09/11/md-example.html</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/2017/09/11/md-example.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'hello world'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 10 Sep 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/2017/09/10/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/2017/09/10/welcome-to-jekyll.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Jane Eyre</title>
+        <description>&lt;p&gt;There was no possibility of taking a walk that day.  We had been wandering, indeed, in the leafless shrubbery an hour in the morning; but since dinner (Mrs. Reed, when there was no company, dined early) the cold winter wind had brought with it clouds so sombre, and a rain so penetrating, that further out-door exercise was now out of the question.&lt;/p&gt;
+
+&lt;p&gt;I was glad of it: I never liked long walks, especially on chilly afternoons: dreadful to me was the coming home in the raw twilight, with nipped fingers and toes, and a heart saddened by the chidings of Bessie, the nurse, and humbled by the consciousness of my physical inferiority to Eliza, John, and Georgiana Reed.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Sep 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/2017/09/10/jane-eyre.html</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/2017/09/10/jane-eyre.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
