@@ -6,202 +6,51 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Apr 2019 02:16:09 -0400</pubDate>
-    <lastBuildDate>Fri, 05 Apr 2019 02:16:09 -0400</lastBuildDate>
+    <pubDate>Fri, 05 Apr 2019 03:41:59 -0400</pubDate>
+    <lastBuildDate>Fri, 05 Apr 2019 03:41:59 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Github Flavored Markdown Sampler!</title>
-        <description>&lt;h1 id=&quot;github-flavored-markdown&quot;&gt;GitHub Flavored Markdown&lt;/h1&gt;
+        <title>Field Notes from Outer Space</title>
+        <description>&lt;p&gt;&lt;em&gt;Do an escape room: Take note of the design of the room.  What are the rules of the room? How do different players interact with the room and each other? What does the room and its objects look like?  What are the different types of puzzles? How is the game setup?  What is the role of the gamemaster?&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;View the &lt;a href=&quot;http://github.github.com/github-flavored-markdown/sample_content.html&quot;&gt;source of this content&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/alien-attack.jpg&quot; alt=&quot;The Aliens got us!&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Let’s get the whole “linebreak” thing out of the way. The next paragraph contains two phrases separated by a single newline character:&lt;/p&gt;
+&lt;p&gt;Thursday night (in a bit of a last minute booking), I went to Koreatown to play &lt;a href=&quot;https://nyc.escape-entertainment.com/&quot;&gt;Escape Entertainment’s&lt;/a&gt; “Alien Attack” escape room with my sister.&lt;/p&gt;
 
-&lt;p&gt;Roses are red
-Violets are blue&lt;/p&gt;
+&lt;p&gt;We didn’t make it out alive, but had a fun time and came close despite being a small team.&lt;/p&gt;
 
-&lt;p&gt;The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:&lt;/p&gt;
+&lt;h1 id=&quot;the-setting&quot;&gt;The setting&lt;/h1&gt;
 
-&lt;p&gt;Roses are red&lt;br /&gt;
-Violets are blue&lt;/p&gt;
+&lt;p&gt;The premise of the game was that we were aboard a Russian spaceship, and aliens are attacking. We were lead into a dimly lit room, with lots of metal paneling and flashing emergency lights (the spaceship), where we were explained the instructions (no puzzles require force, where the button for emergency exit, etc), and where we were provided smartphones preloaded with a couple very specific apps, the most unique part of the experience.&lt;/p&gt;
 
-&lt;p&gt;Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.&lt;/p&gt;
+&lt;p&gt;There were a number of screens mounted around the room, including TVs and tablets. The TV at the front of the room displaying some control panel graphics, and a big button. The center of the room had a table, and there were 4 smaller connecting rooms acting as different parts the spaceship) which were initially locked behind sliding doors.&lt;/p&gt;
 
-&lt;h2 id=&quot;math-is-hard-lets-go-shopping&quot;&gt;Math is hard, let’s go shopping&lt;/h2&gt;
+&lt;p&gt;All the signage around the room was in Russian. Occasionally a siren would sound, or a Russian speaker would come over the loudspeaker. Towards the end of the game the frequency of these random sounds would increase and the lighting turned more red, giving a pretty strong sense of urgency.&lt;/p&gt;
 
-&lt;p&gt;In first grade I learned that 5 &amp;gt; 3 and 2 &amp;lt; 7. Maybe some arrows. 1 -&amp;gt; 2 -&amp;gt; 3. 9 &amp;lt;- 8 &amp;lt;- 7.&lt;/p&gt;
+&lt;h1 id=&quot;the-game&quot;&gt;The game&lt;/h1&gt;
 
-&lt;p&gt;Triangles man! a^2 + b^2 = c^2&lt;/p&gt;
+&lt;p&gt;The most compelling aspect of the game was the addition of smartphones preloaded with several apps, including a translation camera, an AR camera app, and a flashlight. Because everything was in Russian, it added an additional twist in deciphering a lot of the puzzles. The AR app also had us pointing the camera at everything for clues.&lt;/p&gt;
 
-&lt;h2 id=&quot;we-all-like-making-lists&quot;&gt;We all like making lists&lt;/h2&gt;
+&lt;p&gt;Without giving too much away, the games within the smaller rooms were generally a combination of physical/spatial puzzles (figuring out where things go) and then logical (figuring out how to use the completed puzzle to get a password).&lt;/p&gt;
 
-&lt;p&gt;The above header should be an H2 tag. Now, for a list of fruits:&lt;/p&gt;
+&lt;p&gt;Because there were usually multiple puzzles needing to be solved at any time and the smartphone translation / AR, we naturally split up tasks.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Red Apples&lt;/li&gt;
-  &lt;li&gt;Purple Grapes&lt;/li&gt;
-  &lt;li&gt;Green Kiwifruits&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Throughout the game, the gamemaster would give us hints when we got stuck, which made a sound and showed up on the TV with the countdown.&lt;/p&gt;
 
-&lt;p&gt;Let’s get crazy:&lt;/p&gt;
+&lt;h1 id=&quot;some-thoughts&quot;&gt;Some thoughts&lt;/h1&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;This is a list item with two paragraphs. Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-mi posuere lectus.&lt;/p&gt;
+&lt;p&gt;I definitely liked the inclusion of the apps a lot, but there definitely was some finicky parts with the translation not always working.&lt;/p&gt;
 
-    &lt;p&gt;Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-sit amet velit.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;I do wish that the setting was stronger and the puzzles tied more directly to the setting. The sense of urgency didn’t really kick in until the end when the sirens and lights kept going off. The dimness, although cool initially, got in the way of the puzzles sometimes when we had to constantly hold a flashlight to read the signs.&lt;/p&gt;
 
-&lt;p&gt;What about some code &lt;strong&gt;in&lt;/strong&gt; a list? That’s insane, right?&lt;/p&gt;
+&lt;p&gt;The gamemaster helped a lot with our pacing by giving us clear hints when we got totally stuck.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;In Ruby you can map like this:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ['a', 'b'].map { |x| x.uppercase }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In Rails, you can do a shortcut:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ['a', 'b'].map(&amp;amp;:uppercase)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Some people seem to like definition lists&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;Lower cost&lt;/dt&gt;
-  &lt;dd&gt;The new version of this product costs significantly less than the previous one!&lt;/dd&gt;
-  &lt;dt&gt;Easier to use&lt;/dt&gt;
-  &lt;dd&gt;We've changed the product so that it's much easier to use!&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;h2 id=&quot;i-am-a-robot&quot;&gt;I am a robot&lt;/h2&gt;
-
-&lt;p&gt;Maybe you want to print &lt;code class=&quot;highlighter-rouge&quot;&gt;robot&lt;/code&gt; to the console 1000 times. Why not?&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def robot_invasion
-  puts(&quot;robot &quot; * 1000)
-end
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You see, that was formatted as code because it’s been indented by four spaces.&lt;/p&gt;
-
-&lt;p&gt;How about we throw some angle braces and ampersands in there?&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;footer&quot;&amp;gt;
-    &amp;amp;copy; 2004 Foo Corporation
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;set-in-stone&quot;&gt;Set in stone&lt;/h2&gt;
-
-&lt;p&gt;Preformatted blocks are useful for ASCII art:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;             ,-.
-    ,     ,-.   ,-.
-   / \   (   )-(   )
-   \ |  ,.&amp;gt;-(   )-&amp;lt;
-    \|,' (   )-(   )
-     Y ___`-'   `-'
-     |/__/   `-'
-     |
-     |
-     |    -hrr-
-  ___|_____________
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;playing-the-blame-game&quot;&gt;Playing the blame game&lt;/h2&gt;
-
-&lt;p&gt;If you need to blame someone, the best way to do so is by quoting them:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I, at any rate, am convinced that He does not throw dice.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Or perhaps someone a little less eloquent:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I wish you’d have given me this written question ahead of time so I
-could plan for it… I’m sure something will pop into my head here in
-the midst of this press conference, with all the pressure of trying to
-come up with answer, but it hadn’t yet…&lt;/p&gt;
-
-  &lt;p&gt;I don’t want to sound like
-I have made no mistakes. I’m confident I have. I just haven’t - you
-just put me under the spot here, and maybe I’m not as quick on my feet
-as I should be in coming up with one.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;table-for-two&quot;&gt;Table for two&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;th&gt;ID&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Rank&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;1&lt;/td&gt;&lt;td&gt;Tom Preston-Werner&lt;/td&gt;&lt;td&gt;Awesome&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;2&lt;/td&gt;&lt;td&gt;Albert Einstein&lt;/td&gt;&lt;td&gt;Nearly as awesome&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;crazy-linking-action&quot;&gt;Crazy linking action&lt;/h2&gt;
-
-&lt;p&gt;I get 10 times more traffic from &lt;a href=&quot;http://google.com/&quot; title=&quot;Google&quot;&gt;Google&lt;/a&gt; than from
-&lt;a href=&quot;http://search.yahoo.com/&quot; title=&quot;Yahoo Search&quot;&gt;Yahoo&lt;/a&gt; or &lt;a href=&quot;http://search.msn.com/&quot; title=&quot;MSN Search&quot;&gt;MSN&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;This was definitely the most technologically savvy escape room I’ve been in, with its use of apps, tablets.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 11 Sep 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/2017/09/11/md-example.html</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/2017/09/11/md-example.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'hello world'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 10 Sep 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/2017/09/10/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/2017/09/10/welcome-to-jekyll.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jane Eyre</title>
-        <description>&lt;p&gt;There was no possibility of taking a walk that day.  We had been wandering, indeed, in the leafless shrubbery an hour in the morning; but since dinner (Mrs. Reed, when there was no company, dined early) the cold winter wind had brought with it clouds so sombre, and a rain so penetrating, that further out-door exercise was now out of the question.&lt;/p&gt;
-
-&lt;p&gt;I was glad of it: I never liked long walks, especially on chilly afternoons: dreadful to me was the coming home in the raw twilight, with nipped fingers and toes, and a heart saddened by the chidings of Bessie, the nurse, and humbled by the consciousness of my physical inferiority to Eliza, John, and Georgiana Reed.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 10 Sep 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/2017/09/10/jane-eyre.html</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/2017/09/10/jane-eyre.html</guid>
+        <pubDate>Thu, 04 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/2019/04/04/field-notes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/2019/04/04/field-notes.html</guid>
         
         
       </item>

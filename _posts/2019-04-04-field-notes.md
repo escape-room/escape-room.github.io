@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Field Notes from Outer Space"
+---
+
+*Do an escape room: Take note of the design of the room.  What are the rules of the room? How do different players interact with the room and each other? What does the room and its objects look like?  What are the different types of puzzles? How is the game setup?  What is the role of the gamemaster?*
+
+![The Aliens got us!](/images/alien-attack.jpg)
+
+Thursday night (in a bit of a last minute booking), I went to Koreatown to play [Escape Entertainment's](https://nyc.escape-entertainment.com/) "Alien Attack" escape room with my sister.
+
+We didn't make it out alive, but had a fun time and came close despite being a small team.
+
+# The setting
+
+The premise of the game was that we were aboard a Russian spaceship, and aliens are attacking. We were lead into a dimly lit room, with lots of metal paneling and flashing emergency lights (the spaceship), where we were explained the instructions (no puzzles require force, where the button for emergency exit, etc), and where we were provided smartphones preloaded with a couple very specific apps, the most unique part of the experience.
+
+There were a number of screens mounted around the room, including TVs and tablets. The TV at the front of the room displaying some control panel graphics, and a big button. The center of the room had a table, and there were 4 smaller connecting rooms acting as different parts the spaceship) which were initially locked behind sliding doors.
+
+All the signage around the room was in Russian. Occasionally a siren would sound, or a Russian speaker would come over the loudspeaker. Towards the end of the game the frequency of these random sounds would increase and the lighting turned more red, giving a pretty strong sense of urgency.
+
+# The game
+
+The most compelling aspect of the game was the addition of smartphones preloaded with several apps, including a translation camera, an AR camera app, and a flashlight. Because everything was in Russian, it added an additional twist in deciphering a lot of the puzzles. The AR app also had us pointing the camera at everything for clues.
+
+Without giving too much away, the games within the smaller rooms were generally a combination of physical/spatial puzzles (figuring out where things go) and then logical (figuring out how to use the completed puzzle to get a password).
+
+Because there were usually multiple puzzles needing to be solved at any time and the smartphone translation / AR, we naturally split up tasks.
+
+Throughout the game, the gamemaster would give us hints when we got stuck, which made a sound and showed up on the TV with the countdown.
+
+# Some thoughts
+
+I definitely liked the inclusion of the apps a lot, but there definitely was some finicky parts with the translation not always working.
+
+I do wish that the setting was stronger and the puzzles tied more directly to the setting. The sense of urgency didn't really kick in until the end when the sirens and lights kept going off. The dimness, although cool initially, got in the way of the puzzles sometimes when we had to constantly hold a flashlight to read the signs.
+
+The gamemaster helped a lot with our pacing by giving us clear hints when we got totally stuck.
+
+This was definitely the most technologically savvy escape room I've been in, with its use of apps, tablets.

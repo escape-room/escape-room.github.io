@@ -4,10 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+This is Michael's blog for [ITP: Escape Room, Spring 2019.](https://docs.google.com/document/d/1VGfecEyUnz2-qht7X_S0JVp3Q4uOZ9TmB9uTcN5pEsM/edit?ts=5c9e29b2)
