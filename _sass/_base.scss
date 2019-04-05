@@ -3,7 +3,7 @@ $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 // $small-font-size:  $base-font-size;
-$base-line-height: 1.4;
+$base-line-height: 1.5;
 $spacing-unit:     $base-font-size;
 $text-color:       black;
 $background-color: white;
@@ -137,7 +137,7 @@ ul, ol, dl, figure, table,
 
 p {
   hyphens: auto;
-  margin-bottom: $spacing-unit * 1.5;
+  // margin-bottom: $spacing-unit * 1.5;
 }
 
 table {
