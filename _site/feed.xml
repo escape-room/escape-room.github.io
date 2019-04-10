@@ -6,9 +6,58 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Apr 2019 12:03:28 -0400</pubDate>
-    <lastBuildDate>Fri, 05 Apr 2019 12:03:28 -0400</lastBuildDate>
+    <pubDate>Wed, 10 Apr 2019 18:51:48 -0400</pubDate>
+    <lastBuildDate>Wed, 10 Apr 2019 18:51:48 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Puzzle Planning</title>
+        <description>&lt;p&gt;Last class, we decided on an outline for the story and began brainstorming puzzles ideas. The story (subject to change) is as follows:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You are the research team of the famous Dr. Maria Sanchez, who has recently gone missing after refusing to turn over the findings of her latest secret project to some big evil tech company. She has left you with a series of cryptic instructions to recover the project. After rifling through her lab, you discover that she was silenced after discovering time travel, and you repair the machine to go back in time and save Dr. Sanchez!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This story extends to a natural puzzle flow consisting of two “meta-puzzles”:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Activating the time machine&lt;/li&gt;
+  &lt;li&gt;Saving Dr. Maria (escaping the room)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We met as a group today to work out some of the details of the time machine and the first meta-puzzle. After looking at the room size, we decided on using the corner of the room immediately right of the entrance for our time machine. In order to simplify the space requirements and machine design, our time machine would consist of a curtain / folding door on a rail and a control panel box. This way the construction and setup of the time machine would be modular.&lt;/p&gt;
+
+&lt;p&gt;To get the machine to work, we wanted to have the results of the sub-puzzles to include several “parts” that fit into the sides of the control panel box. Some ideas included:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Schematics&lt;/li&gt;
+  &lt;li&gt;Date to travel to&lt;/li&gt;
+  &lt;li&gt;Motherboard (magnets)&lt;/li&gt;
+  &lt;li&gt;Screw in part&lt;/li&gt;
+  &lt;li&gt;Level&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We also considered having it wired up so the machine would automatically be able to detect when it was repaired and produce effects, time permitting.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/time-machine-plans.jpg&quot; alt=&quot;Time machine and puzzle flow planning.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some ideas we had for puzzles included:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mixing colors in beakers&lt;/li&gt;
+  &lt;li&gt;Using colored glasses to decipher a hidden password&lt;/li&gt;
+  &lt;li&gt;Using a periodic table to translate into a combination lock&lt;/li&gt;
+  &lt;li&gt;Online newspaper that changes after time travel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We began working on some really rough prototypes of these puzzles and set pieces.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/2019/04/10/puzzle-planning.html</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/2019/04/10/puzzle-planning.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Field Notes from Outer Space</title>

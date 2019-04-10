@@ -10,7 +10,7 @@ $background-color: white;
 $link-color:      #2a7ae2;
 
 $grey-color:       #aaa;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color-light: lighten($grey-color, 25%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $navbar-bg-color: white;
@@ -211,8 +211,8 @@ a {
 */
 blockquote {
   color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
+  border-left: 2px solid $grey-color-light;
+  padding-left: $spacing-unit * 2;
   font-size: 18px;
   font-style: italic;
 
