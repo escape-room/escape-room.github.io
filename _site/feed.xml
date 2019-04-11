@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Apr 2019 18:51:48 -0400</pubDate>
-    <lastBuildDate>Wed, 10 Apr 2019 18:51:48 -0400</lastBuildDate>
+    <pubDate>Wed, 10 Apr 2019 21:36:25 -0400</pubDate>
+    <lastBuildDate>Wed, 10 Apr 2019 21:36:25 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -39,7 +39,8 @@
 
 &lt;p&gt;We also considered having it wired up so the machine would automatically be able to detect when it was repaired and produce effects, time permitting.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/time-machine-plans.jpg&quot; alt=&quot;Time machine and puzzle flow planning.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/time-machine-plans.jpg&quot; alt=&quot;Time machine and puzzle flow planning.&quot; /&gt;
+&lt;em&gt;Time machine and puzzle flow planning.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Some ideas we had for puzzles included:&lt;/p&gt;
 
@@ -51,6 +52,9 @@
 &lt;/ul&gt;
 
 &lt;p&gt;We began working on some really rough prototypes of these puzzles and set pieces.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/time-machine-inspiration.png&quot; alt=&quot;Time machine inspiration.&quot; /&gt;
+&lt;em&gt;Time machine inspiration.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Apr 2019 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/2019/04/10/puzzle-planning.html</link>

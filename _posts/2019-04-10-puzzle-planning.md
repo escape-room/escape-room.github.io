@@ -25,6 +25,7 @@ To get the machine to work, we wanted to have the results of the sub-puzzles to 
 We also considered having it wired up so the machine would automatically be able to detect when it was repaired and produce effects, time permitting.
 
 ![Time machine and puzzle flow planning.](/images/time-machine-plans.jpg)
+*Time machine and puzzle flow planning.*
 
 Some ideas we had for puzzles included:
 
@@ -34,3 +35,6 @@ Some ideas we had for puzzles included:
 - Online newspaper that changes after time travel
 
 We began working on some really rough prototypes of these puzzles and set pieces.
+
+![Time machine inspiration.](/images/time-machine-inspiration.png)
+*Time machine inspiration.*
