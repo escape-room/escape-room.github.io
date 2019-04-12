@@ -1,0 +1,13 @@
+<body>
+  <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+  <script>
+    window.onload = () => {
+      let socket = io()
+      const button = document.getElementById("toggle")
+      button.addEventListener('click', (event) => {
+        socket.emit('time-travel')
+      })
+    }
+  </script>
+  <button id="toggle">Time travel</button>
+</body>

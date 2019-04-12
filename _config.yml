@@ -24,3 +24,4 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+exclude: [node_modules, package.json, server.js]
