@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Puzzle Planning"
+title: "Puzzle Planning: Part I"
 ---
 
 Last class, we decided on an outline for the story and began brainstorming puzzles ideas. The story (subject to change) is as follows:

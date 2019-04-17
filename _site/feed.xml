@@ -6,12 +6,36 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Apr 2019 03:45:29 -0400</pubDate>
-    <lastBuildDate>Fri, 12 Apr 2019 03:45:29 -0400</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 17:15:50 -0400</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 17:15:50 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Puzzle Planning</title>
+        <title>Puzzle Planning: Part II</title>
+        <description>&lt;p&gt;For today’s meeting, we finalized the puzzle design, including adjusting the story to fit the new plan. The finalized puzzle flow ended up being:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Unlock time machine door (to activate machine)&lt;/li&gt;
+  &lt;li&gt;Repair time machine to travel back to present&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We also planned the exact puzzles and split up the prototype work. My task was building out the puzzle elements on the Dr’s computer, which would initially be one newspaper article. After the time travel section, the computer would change to be logged out, and require the players to call IT using the Dr’s phone to recover her password (using information in the Dr’s wallet that appears in her lab coat). After unlocking the computer, a second newspaper article would provide additional clues and story.&lt;/p&gt;
+
+&lt;p&gt;Part of the design of this puzzle was a desire to incorporate a “real world” interactive element. This is part of our longest subpuzzle sequence, and has yet to be tested, so it’ll be interesting to see if the puzzle succeeds in playtesting. One concern is that players might not understand that they can actually call with the phone they are given.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/login-screen.png&quot; alt=&quot;Login screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The prototype for this can be played &lt;a href=&quot;/part2.html&quot;&gt;here&lt;/a&gt;. The password is “hotdog”.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Apr 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/2019/04/17/puzzle-planning-part-2.html</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/2019/04/17/puzzle-planning-part-2.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Puzzle Planning: Part I</title>
         <description>&lt;p&gt;Last class, we decided on an outline for the story and began brainstorming puzzles ideas. The story (subject to change) is as follows:&lt;/p&gt;
 
 &lt;blockquote&gt;
