@@ -13,7 +13,7 @@ const server = http.createServer((request, response) => {
     
     switch(filePath) {
       case './': 
-        filePath = './newspaper1.html'
+        filePath = './part1.html'
         break
       case './gamemasters-only':
         filePath = './controller.html'
@@ -52,7 +52,7 @@ io.on('connection', (socket) => {
 
   socket.on('time-travel', () => {
     console.log('Time travel!')
-    socket.broadcast.emit('change-newspaper')
+    socket.broadcast.emit('time-travel')
   })
 })
 
