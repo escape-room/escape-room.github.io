@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #newspaper {
+      font-size: 20px;
+      font-family: Baskerville;
+      padding: 50px 100px;
+      line-height: 1.45;
+      width: 600px;
+    }
+
+    h1 {
+      line-height: 1.2;
+      padding-bottom: 20px;
+      border-bottom: 1px solid black;
+    }
+
+    .info {
+      font-size: 14px;
+      font-family: Helvetica;
+      color: grey;
+      margin-bottom: 64px;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    #login label {
+      display: block;
+      margin-bottom: 9px;
+      text-transform: uppercase;
+      font-size: 0.7em;
+      letter-spacing: 0.05em;
+      font-weight: bold;
+      color: grey;
+    }
+
+    #login input {
+      font-size: 18px;
+      margin-bottom: 18px;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+      padding: 7px 10px;
+    }
+
+    #login button {
+      display: block;
+      text-transform: uppercase;
+      font-size: 0.7em;
+      letter-spacing: 0.05em;
+      font-weight: bold;
+      -webkit-appearance: none;
+      -moz-appearance:    none;
+      appearance:         none;
+      background: #4e64ff;
+      color: white;
+      padding: 9px 18px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #7687ff;
+    }
+
+    button:active {
+      background: #4e64ff;
+    }
+
+    #login {
+      font-family: Helvetica, sans-serif;
+      background-color: rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+      font-size: 18px;
+    }
+
+    #login-inputs {
+      background: white;
+      border: 1px solid lightgrey;
+      padding: 60px 40px;
+      border-radius: 5px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .shake {
+      /* Start the shake animation and make the animation last for 0.5 seconds */
+      animation: shake 0.5s;
+
+      /* When the animation is finished, start again */
+      animation-iteration-count: infinite;
+    }
+
+    #alert-box {
+      font-size: 14px;
+      margin-top: 14px;
+      color: red;
+      transition-duration: 200ms;
+    }
+
+    .invisible {
+      opacity: 0;
+    }
+
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      20% { transform: translate(-1px, -1px) rotate(-1deg); }
+      40% { transform: translate(-1px, 0px) rotate(1deg); }
+      60% { transform: translate(0px, 1px) rotate(0deg); }
+      80% { transform: translate(1px, 2px) rotate(1deg); }
+      100% { transform: translate(2px, 0px) rotate(-1deg); }
+    }
+  </style>
+</head>
+<script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+<script src="/redirect.js"></script>
+<script>
+  window.onload = () => {
+    bindRedirectListeners()
+
+    const login = document.getElementById('login');
+    const newspaper = document.getElementById('newspaper');
+
+    const passwordInput = document.getElementById('password');
+    const inputs = document.getElementById('login-inputs');
+    const alertBox = document.getElementById('alert-box');
+
+    const resetLogin = () => {
+      inputs.className = 'login-inputs';
+      alertBox.className = '';
+    }
+
+    inputs.addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      if (passwordInput.value == 'runningoutoftime') {
+        login.className = 'hidden';
+        newspaper.className = '';
+      }
+      else {
+        inputs.className = 'login-inputs shake';
+        window.setTimeout(resetLogin, 300);  
+      }
+    });
+  };
+</script>
+<body>
+  <div id="login">
+
+    <form id="login-inputs">  
+      <label for="name">Username:</label>
+      <input id="name" readonly type="text" value="Maria Sanchez"></input>
+      <label for="password">Password:</label>
+      <input id="password" type="password" autocomplete="off" required></input>
+      <button id="login-button">Login</button>
+
+      <div id="alert-box" class="invisible">Incorrect password. Please try again. <br><br> Forgot password? <br> Contact IT at: 628-400-7468</div>
+    </form>
+  </div>
+  <div id="newspaper" class="hidden">
+    <h1><em>ELITE UNIVERSITY POISED FOR CORPORATE TAKEOVER</em></h1>
+    <p class="info">
+      Saturday 10 May, 2053
+    </p>
+
+    <p>
+      The Mathematical Academy for the Advancement of Technology, a long-standing elite public university, is now poised to become a branch of the Institute for Corporate Research. The controversial deal had been delayed pending a decision from the US Department of Education, which in recent years has adopted a controversial policy of allowing corporations to purchase universities.
+    </p>
+
+    <p>
+      “It’s a great day for ICR, and it’s a great day for America,” said Institute for Corporate Research CEO Samwell Connors at a press conference yesterday evening, “all students deserve a chance for a first-class education.” ICR has purchased over 50 universities in the past decade, and has garnered some controversy for raising tuition and claiming up to 80% of all graduates’ future earnings.
+    </p>
+    
+    <p>
+      One of the most vocal opponents to the deal has been celebrated physicist Dr. Maria Sanchez. “I can never let them find it,” Dr. Sanchez was heard muttering in her office on Friday, adding “they’ll use it for evil. I’ll have to break it into pieces. Tiny little pieces of <em>beryllium and iodine.</em>” Sources have yet to confirm what that could possibly mean.
+    </p>
+  </div>
+</body>
