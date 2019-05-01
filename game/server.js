@@ -72,8 +72,16 @@ io.on('connection', (socket) => {
     emit('client-to-part2')
   })
 
-  on('activate-video', () => {
+  on('activate-video-play', () => {
     emit('video-to-play')
+  })
+
+  on('activate-video-pause', () => {
+    emit('video-to-pause')
+  })
+
+  on('activate-video-reset', () => {
+    emit('video-to-reset')
   })
 })
 

@@ -12,7 +12,7 @@
       align-items: center;
       width: 100vw;
       height: 100vh;
-      font-size: 24px;
+      font-size: 18px;
     }
 
     button {
@@ -35,6 +35,10 @@
     button:active {
       background-color: #0b7218;
     }
+
+    .buttons {
+      padding-bottom: 100px;
+    }
   </style>
 </head>
 <body>
@@ -46,20 +50,21 @@
         query: buildQueryString({ url: window.location.href }),
       })
 
-      const button1 = document.getElementById("activate-part1")
-      button1.addEventListener('click', (event) => {
-        socket.emit('activate-part1')
-      })
-
-      const button2 = document.getElementById("activate-part2")
-      button2.addEventListener('click', (event) => {
-        socket.emit('activate-part2')
+      document.querySelectorAll('button').forEach((element) => {
+        element.addEventListener('click', (event) => {
+          socket.emit(element.id)
+        })
       })
     }
   </script>
-  <div>
+  <div class="buttons">
+    <h2>Computer control</h2>
     <button id="activate-part1">PART ONE</button>
     <button id="activate-part2">PART TWO</button>
+    <h2>Video control</h2>
+    <button id="activate-video-play">PLAY VIDEO</button>
+    <button id="activate-video-pause">PAUSE VIDEO</button>
+    <button id="activate-video-reset">RESET VIDEO</button>
   </div>
 </body>
 </html>

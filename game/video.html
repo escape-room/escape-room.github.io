@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <style>
+    video {
+      width: 100vw;
+    }
+  </style>
+  <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+  <script>
+    const buildQueryString = (params) => Object.keys(params).map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(params[key])).join('&')
+    window.onload = () => {
+      const video = document.getElementById("video")
+
+      let socket = io({
+        query: buildQueryString({ url: window.location.href }),
+      })
+
+      const on = (name, callback) => socket.on(name, (data) => {
+        console.log("RECIEVED: <" + name + ">")
+        console.log("  | DATA: " + data)
+        callback(data)
+      })
+
+      const tryToPlay = async () => {
+        try {
+          console.log("ATTEMPT TO PLAY")
+          await video.play()
+        } catch(err) {
+          console.error(err)
+          tryToPlay()
+        }
+      }
+
+      on('video-to-play', tryToPlay)
+      on('video-to-pause', () => video.pause())
+      on('video-to-reset', () => {
+        video.currentTime = 0
+        video.pause()
+      })
+    }
+  </script>
+</head>
+<body>
+  <video id="video">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+</body>
+</html>
