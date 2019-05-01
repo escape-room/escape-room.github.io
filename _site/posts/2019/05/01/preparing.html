@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title></title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="navbar__inner">
+      <li class="navbar__item"><a class="navbar__text" href="/">Posts</a></li>
+      <li class="navbar__item"><a class="navbar__text" href="/about">About</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Preparing for Escape</h1>
+    <p class="post-meta"><time datetime="2019-05-01T00:00:00-04:00" itemprop="datePublished">May 1, 2019</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Just a miscellaneous collection of what I’ve been up to these past two weeks.</p>
+
+<h2 id="periodic-table">Periodic table</h2>
+
+<p>We couldn’t find an adequate periodic table online or on Amazon, so I ended up modifying one I found that was in HTML and CSS form. What we needed was a periodic table without any extraneous numbers, but also included the full names of the elements so that the puzzles we constructed could be solved. I ended up making <a href="https://codepen.io/themichaelyang/pen/bJQVbG">this</a>, and we printed it out really big thanks to the in-browser PDF print exports.</p>
+
+<p><img src="/images/periodic-table-1.png" alt="Custom periodic table." />
+<em>Custom periodic table.</em></p>
+
+<p>During playtesting, we ended up discovering that the colors were a bit misleading due to our glasses puzzle. I’m going to modify these colors so they aren’t visible from the red glasses.</p>
+
+<h2 id="web-app">Web app</h2>
+
+<p>I wrote a basic web interface for remotely activating some gamemastered elements of the game: changing Dr. Sanchez’s computer, and playing the time machine video. It works using Node.js and Socket.io, and is deployed to Heroku. The idea is that we will have Raspberry Pis running the web app, and our gamemastering computer running the controller interface.</p>
+
+<p><img src="/images/interface.png" alt="Gamemaster web interface." />
+<em>Gamemaster web interface.</em></p>
+
+<p>What remains is constructing the time machine walls, the time machine control panel, and putting it all into the room with our A/V equipment. We’re also going to have to add a lot more props; the room feels very sparse as it is.</p>
+
+<h2 id="raspberry-pi">Raspberry Pi</h2>
+
+<p>Setting up the Raspberry Pis turned out to be quite a task. I dug up two Pis from as old as 2015, a Model B and an original Pi. Here’s a list of the issues I ended up running into:</p>
+
+<ul>
+  <li>Forgot the password for the older Pi; luckily Pis are very insecure and you can <a href="http://mapledyne.com/ideas/2015/8/4/reset-lost-admin-password-for-raspberry-pi">easily reset it</a></li>
+  <li>Older Pi lacks wifi reciever since I lost it</li>
+  <li>Boot from USB not setup on newer Pi; had to install OS on microSD to first boot in order to set this bit</li>
+  <li>Pis play poorly with WPA2-Enterprise wifi authentication; default GUI wifi wouldn’t <a href="http://lmgtfy.com/?q=eduroam+raspberry+pi">allow me to connect to eduroam</a> and I needed <code class="highlighter-rouge">wpa_gui</code> for this and it somehow worked (settings: WPA2-Enterprise, PEAP, standard logins). Default “nyu” wifi wouldn’t work, and didn’t even show up at all (I have no clue why; <a href="https://itp.nyu.edu/classes/cdni-spring2015/how-to/itp-networks/">here</a> <a href="https://www.reddit.com/r/raspberry_pi/comments/556nej/wpa2enterprise/">are</a> some potential clues)</li>
+  <li>Pis also play poorly with the apostrophe (’) in iPhone hotspot names: Michael’s iPhone gave some weird character encoding errors, and I had to change my phone’s name to MyPhone in order to get this to work.</li>
+  <li>The files for NOOBS and Raspbian were massive and took a long time to download</li>
+  <li>Formatting the flash drive for Raspbian took forever as well (even longer than the download)
+    <ul>
+      <li>There was a chance the flash drive wouldn’t even be compatible with booting since I got it for free from a career fair, but I got lucky</li>
+    </ul>
+  </li>
+  <li>Running the initial install also took a long time (you can sense a pattern now)</li>
+</ul>
+
+  </div>
+
+</article>
+
+  </main>
+</body>
+</html>

@@ -6,9 +6,57 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 May 2019 14:35:14 -0400</pubDate>
-    <lastBuildDate>Wed, 01 May 2019 14:35:14 -0400</lastBuildDate>
+    <pubDate>Wed, 01 May 2019 16:34:48 -0400</pubDate>
+    <lastBuildDate>Wed, 01 May 2019 16:34:48 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Preparing for Escape</title>
+        <description>&lt;p&gt;Just a miscellaneous collection of what I’ve been up to these past two weeks.&lt;/p&gt;
+
+&lt;h2 id=&quot;periodic-table&quot;&gt;Periodic table&lt;/h2&gt;
+
+&lt;p&gt;We couldn’t find an adequate periodic table online or on Amazon, so I ended up modifying one I found that was in HTML and CSS form. What we needed was a periodic table without any extraneous numbers, but also included the full names of the elements so that the puzzles we constructed could be solved. I ended up making &lt;a href=&quot;https://codepen.io/themichaelyang/pen/bJQVbG&quot;&gt;this&lt;/a&gt;, and we printed it out really big thanks to the in-browser PDF print exports.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/periodic-table-1.png&quot; alt=&quot;Custom periodic table.&quot; /&gt;
+&lt;em&gt;Custom periodic table.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;During playtesting, we ended up discovering that the colors were a bit misleading due to our glasses puzzle. I’m going to modify these colors so they aren’t visible from the red glasses.&lt;/p&gt;
+
+&lt;h2 id=&quot;web-app&quot;&gt;Web app&lt;/h2&gt;
+
+&lt;p&gt;I wrote a basic web interface for remotely activating some gamemastered elements of the game: changing Dr. Sanchez’s computer, and playing the time machine video. It works using Node.js and Socket.io, and is deployed to Heroku. The idea is that we will have Raspberry Pis running the web app, and our gamemastering computer running the controller interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/interface.png&quot; alt=&quot;Gamemaster web interface.&quot; /&gt;
+&lt;em&gt;Gamemaster web interface.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;What remains is constructing the time machine walls, the time machine control panel, and putting it all into the room with our A/V equipment. We’re also going to have to add a lot more props; the room feels very sparse as it is.&lt;/p&gt;
+
+&lt;h2 id=&quot;raspberry-pi&quot;&gt;Raspberry Pi&lt;/h2&gt;
+
+&lt;p&gt;Setting up the Raspberry Pis turned out to be quite a task. I dug up two Pis from as old as 2015, a Model B and an original Pi. Here’s a list of the issues I ended up running into:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Forgot the password for the older Pi; luckily Pis are very insecure and you can &lt;a href=&quot;http://mapledyne.com/ideas/2015/8/4/reset-lost-admin-password-for-raspberry-pi&quot;&gt;easily reset it&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Older Pi lacks wifi reciever since I lost it&lt;/li&gt;
+  &lt;li&gt;Boot from USB not setup on newer Pi; had to install OS on microSD to first boot in order to set this bit&lt;/li&gt;
+  &lt;li&gt;Pis play poorly with WPA2-Enterprise wifi authentication; default GUI wifi wouldn’t &lt;a href=&quot;http://lmgtfy.com/?q=eduroam+raspberry+pi&quot;&gt;allow me to connect to eduroam&lt;/a&gt; and I needed &lt;code class=&quot;highlighter-rouge&quot;&gt;wpa_gui&lt;/code&gt; for this and it somehow worked (settings: WPA2-Enterprise, PEAP, standard logins). Default “nyu” wifi wouldn’t work, and didn’t even show up at all (I have no clue why; &lt;a href=&quot;https://itp.nyu.edu/classes/cdni-spring2015/how-to/itp-networks/&quot;&gt;here&lt;/a&gt; &lt;a href=&quot;https://www.reddit.com/r/raspberry_pi/comments/556nej/wpa2enterprise/&quot;&gt;are&lt;/a&gt; some potential clues)&lt;/li&gt;
+  &lt;li&gt;Pis also play poorly with the apostrophe (’) in iPhone hotspot names: Michael’s iPhone gave some weird character encoding errors, and I had to change my phone’s name to MyPhone in order to get this to work.&lt;/li&gt;
+  &lt;li&gt;The files for NOOBS and Raspbian were massive and took a long time to download&lt;/li&gt;
+  &lt;li&gt;Formatting the flash drive for Raspbian took forever as well (even longer than the download)
+    &lt;ul&gt;
+      &lt;li&gt;There was a chance the flash drive wouldn’t even be compatible with booting since I got it for free from a career fair, but I got lucky&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Running the initial install also took a long time (you can sense a pattern now)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 01 May 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/2019/05/01/preparing.html</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/2019/05/01/preparing.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Puzzle Planning: Part II</title>
